@@ -25,14 +25,13 @@ print (" ")
 #Juego 
 print("Juego del Black Jack")
 import random
-random.choice(list(str(cartas)))
-print (carta)
-print ("jugador 1:")
+print ("Jugador 1:")
 def jugador ():
     carta = random.choice(list(cartas))
     puntos = cartas[carta]
     carta = random.choice (list(cartas))
     puntosj = puntos + cartas[carta]
+    return puntosj
     print ("Tus puntos son:" + str(puntosj))
 gg= jugador()
 print (gg)
@@ -42,6 +41,13 @@ def banca():
     puntos= cartas[carta]
     carta = random.choice (list(cartas))
     puntosb= puntos + cartas[carta]
+    return puntosb
     print ("Los puntos de la banca son:" + str(puntosb))
 kk= banca()
 print(kk)
+if gg > kk:
+    print ("Enhorabuena jugador, ha ganado la partida")
+if gg< kk:
+    print ("La banca ha ganado, vuelva a intentarlo")
+else:
+    print("Empate")
