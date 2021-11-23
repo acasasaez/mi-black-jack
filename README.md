@@ -1,5 +1,5 @@
 # mi-black-jack
-En esta tarea se nos ha propuesto programar un uego que simule al blackjack en su versión ,ás sencilla.
+En esta tarea se nos ha propuesto programar un juego que simule al blackjack en su versión ,ás sencilla.
 
 En la idea el jugador juega contra la banca.
 
