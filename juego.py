@@ -27,3 +27,12 @@ print("Juego del Black Jack")
 import random
 random.choice(list(str(cartas)))
 print (carta)
+print ("jugador 1:")
+def jugador ():
+    carta = random.choice(list(cartas))
+    puntos = cartas[carta]
+    carta = random.choice (list(cartas))
+    puntos = puntos + cartas[carta]
+    print (puntos)
+gg= jugador ()
+print (gg)
