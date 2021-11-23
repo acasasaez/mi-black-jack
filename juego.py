@@ -25,4 +25,5 @@ print (" ")
 #Juego 
 print("Juego del Black Jack")
 import random
-
+random.choice(list(str(cartas)))
+print (carta)
