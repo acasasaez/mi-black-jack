@@ -13,6 +13,7 @@ Por otro lado, dejo a continuación el diagrama de flujo que refleja el mecanism
 ![MI BLACK CON J](https://user-images.githubusercontent.com/91721826/143073262-711425c4-ef70-432d-b398-e62691ca7e42.jpg)
 
 Por último, adjunto copia del código del juego:
+
 ´´´#Juego del black jack:
 cartas ={chr(0x1f0a): 11,
          chr(0x1fa2): 2,
