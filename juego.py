@@ -13,7 +13,16 @@ cartas ={chr(0x1f0a): 11,
          chr(0x1f0ad):10,
          chr(0x1f0ae): 10 }
 
-lista1= "cartas{}".format(" ".join(cartas.keys()))
-lista2 = "cartas{}".format(" ".join(str(cartas.values())))
-print(lista1)
-print(str(lista2))
+print ( "cartas{}".format(" ".join(cartas.keys())))
+print ("cartas{}".format(" ".join(str(cartas.values()))))
+
+for carta, valor in cartas.items():
+    print("la carta{} vale {}".format(carta,valor))
+print(" ")
+for carta in sorted (cartas.keys()):
+    print ("la carta{} vale {}".format(carta, cartas[carta]))
+print (" ")
+#Juego 
+print("Juego del Black Jack")
+import random
+
