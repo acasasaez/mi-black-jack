@@ -14,7 +14,7 @@ Por otro lado, dejo a continuación el diagrama de flujo que refleja el mecanism
 
 Por último, adjunto copia del código del juego:
 
-´´´#Juego del black jack:
+´´´ #Juego del black jack:
 cartas ={chr(0x1f0a): 11,
          chr(0x1fa2): 2,
          chr (0x1f03): 3,
