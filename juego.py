@@ -32,7 +32,16 @@ def jugador ():
     carta = random.choice(list(cartas))
     puntos = cartas[carta]
     carta = random.choice (list(cartas))
-    puntos = puntos + cartas[carta]
-    print (puntos)
-gg= jugador ()
+    puntosj = puntos + cartas[carta]
+    print ("Tus puntos son:" + str(puntosj))
+gg= jugador()
 print (gg)
+print("Banca")
+def banca():
+    carta = random.choice (list(cartas))
+    puntos= cartas[carta]
+    carta = random.choice (list(cartas))
+    puntosb= puntos + cartas[carta]
+    print ("Los puntos de la banca son:" + str(puntosb))
+kk= banca()
+print(kk)
